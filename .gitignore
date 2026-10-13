@@ -1,0 +1,12 @@
+# Keep downloaded datasets and sensitive material out of the repository
+**/data/raw/
+**/ed_raw/
+*.csv
+*.xlsx
+*.xls
+.env
+.env.*
+*.key
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
