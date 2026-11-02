@@ -369,8 +369,6 @@ FROM dbo.gold_ed_triage_performance;
 
 **Data:** [Queensland Government Open Data — Emergency departments quarterly data](https://www.data.qld.gov.au/dataset/emergency-departments-quarterly-data). Refer to the publisher for current data, terminology, metadata, licence and any corrections.
 
-**Independent work:** This is a self-directed portfolio project for learning and demonstrating data engineering, statistical analytics and business intelligence. It is **not affiliated with, endorsed by or operated for Queensland Health or Darling Downs Health**. Findings should not be used to judge individual clinicians, infer patient outcomes or make clinical decisions.
-
 ---
 
 **Core skills demonstrated:** Microsoft Fabric · OneLake · PySpark · Delta Lake · SQL · Data Factory · Power BI · Direct Lake · Data Quality · Statistical Analysis · Time-Series Backtesting · Eventstream · Fabric Activator · Git/GitHub
