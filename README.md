@@ -137,6 +137,14 @@ Notebook: `Notebook_1nb_03_ed_gold_analytics` in the Fabric workspace.
 
 Gold measures and dimensions support the Power BI semantic model and analytical notebooks. The facility codes should not automatically be interpreted as 105 independent physical hospitals without checking the source descriptions.
 
+### Architecture and Schema Documentation
+
+For detailed technical documentation of the data engineering implementation:
+
+- **[Medallion Architecture Diagram](docs/architecture/medallion-architecture.md)** — End-to-end Microsoft Fabric architecture covering Bronze, Silver and Gold layers, data orchestration, Eventstream, Activator and Power BI.
+
+- **[Source-to-Target Schema Mapping](docs/schema-mapping.md)** — Column-level mappings, data type conversions, transformation rules, data lineage and validation checks across the clinical analytics pipeline.
+
 ## 5. Power BI clinical-operations dashboard
 
 **Semantic model:** `sm_ed_clinical_operations` (Direct Lake)
@@ -296,7 +304,8 @@ Queensland-Clinical-Data-Analytics/
     ├── screenshots/
     │   └── [Power BI and Fabric screenshots]
     └── docs/
-        └── [optional architecture / methodology notes]
+        └── [architecture / medallion-architecture.md]
+        └── [schema-mapping.md]
 ```
 
 *Bracketed entries describe expected roles, not asserted filenames. See the live repository directories for the actual committed files.*
